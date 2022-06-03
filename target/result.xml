@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="2" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="7.041817">
+<testcase classname="Enter Text" name="Enter Text in Google Seacrh Bar" time="5.63974">
+<failure message="org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 87&#10;Current browser version is 94.0.4606.61 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LAPTOP-CJ23D15G', ip: '172.29.224.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;&#9;Ordinal0 [0x005CC0C3+3326147]&#10;&#9;Ordinal0 [0x004B0851+2164817]&#10;&#9;Ordinal0 [0x00337298+619160]&#10;&#9;Ordinal0 [0x002B1D92+73106]&#10;&#9;Ordinal0 [0x002AE119+57625]&#10;&#9;Ordinal0 [0x002AC38A+50058]&#10;&#9;Ordinal0 [0x002D5F3E+220990]&#10;&#9;Ordinal0 [0x002D5CAC+220332]&#10;&#9;Ordinal0 [0x002D189B+202907]&#10;&#9;Ordinal0 [0x002B3DF4+81396]&#10;&#9;Ordinal0 [0x002B4DEE+85486]&#10;&#9;Ordinal0 [0x002B4D79+85369]&#10;&#9;Ordinal0 [0x004C85DC+2262492]&#10;&#9;GetHandleVerifier [0x00752874+1487204]&#10;&#9;GetHandleVerifier [0x007523CD+1486013]&#10;&#9;GetHandleVerifier [0x0075A368+1518680]&#10;&#9;GetHandleVerifier [0x00752F4E+1488958]&#10;&#9;Ordinal0 [0x004BED0D+2223373]&#10;&#9;Ordinal0 [0x004CA12B+2269483]&#10;&#9;Ordinal0 [0x004CA26F+2269807]&#10;&#9;Ordinal0 [0x004DECB8+2354360]&#10;&#9;BaseThreadInitThunk [0x76C3FA29+25]&#10;&#9;RtlGetAppContainerNamedObjectPath [0x77807A9E+286]&#10;&#9;RtlGetAppContainerNamedObjectPath [0x77807A6E+238]&#10;&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)&#13;&#10;&#9;at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)&#13;&#10;&#9;at java.lang.reflect.Constructor.newInstance(Unknown Source)&#13;&#10;&#9;at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)&#13;&#10;&#9;at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)&#13;&#10;&#9;at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)&#13;&#10;&#9;at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)&#13;&#10;&#9;at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)&#13;&#10;&#9;at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)&#13;&#10;&#9;at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)&#13;&#10;&#9;at java.util.stream.AbstractPipeline.copyInto(Unknown Source)&#13;&#10;&#9;at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)&#13;&#10;&#9;at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)&#13;&#10;&#9;at java.util.stream.AbstractPipeline.evaluate(Unknown Source)&#13;&#10;&#9;at java.util.stream.ReferencePipeline.findFirst(Unknown Source)&#13;&#10;&#9;at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)&#13;&#10;&#9;at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)&#13;&#10;&#9;at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)&#13;&#10;&#9;at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)&#13;&#10;&#9;at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)&#13;&#10;&#9;at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)&#13;&#10;&#9;at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)&#13;&#10;&#9;at StepDefination.sample.user_is_on_Google_HomePage(sample.java:19)&#13;&#10;&#9;at ✽.User is on Google HomePage(file:src/test/java/features/sample.feature:4)&#13;&#10;"><![CDATA[Given User is on Google HomePage............................................failed
+Then Enter enter the "Manipal"..............................................skipped
+
+StackTrace:
+org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 87
+Current browser version is 94.0.4606.61 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-CJ23D15G', ip: '172.29.224.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x005CC0C3+3326147]
+	Ordinal0 [0x004B0851+2164817]
+	Ordinal0 [0x00337298+619160]
+	Ordinal0 [0x002B1D92+73106]
+	Ordinal0 [0x002AE119+57625]
+	Ordinal0 [0x002AC38A+50058]
+	Ordinal0 [0x002D5F3E+220990]
+	Ordinal0 [0x002D5CAC+220332]
+	Ordinal0 [0x002D189B+202907]
+	Ordinal0 [0x002B3DF4+81396]
+	Ordinal0 [0x002B4DEE+85486]
+	Ordinal0 [0x002B4D79+85369]
+	Ordinal0 [0x004C85DC+2262492]
+	GetHandleVerifier [0x00752874+1487204]
+	GetHandleVerifier [0x007523CD+1486013]
+	GetHandleVerifier [0x0075A368+1518680]
+	GetHandleVerifier [0x00752F4E+1488958]
+	Ordinal0 [0x004BED0D+2223373]
+	Ordinal0 [0x004CA12B+2269483]
+	Ordinal0 [0x004CA26F+2269807]
+	Ordinal0 [0x004DECB8+2354360]
+	BaseThreadInitThunk [0x76C3FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77807A9E+286]
+	RtlGetAppContainerNamedObjectPath [0x77807A6E+238]
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+	at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+	at StepDefination.sample.user_is_on_Google_HomePage(sample.java:19)
+	at ✽.User is on Google HomePage(file:src/test/java/features/sample.feature:4)
+]]></failure>
+</testcase>
+<testcase classname="Enter Text" name="Enter Text in Google Seacrh Bar 2" time="1.402077">
+<failure message="org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 87&#10;Current browser version is 94.0.4606.61 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LAPTOP-CJ23D15G', ip: '172.29.224.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;&#9;Ordinal0 [0x005CC0C3+3326147]&#10;&#9;Ordinal0 [0x004B0851+2164817]&#10;&#9;Ordinal0 [0x00337298+619160]&#10;&#9;Ordinal0 [0x002B1D92+73106]&#10;&#9;Ordinal0 [0x002AE119+57625]&#10;&#9;Ordinal0 [0x002AC38A+50058]&#10;&#9;Ordinal0 [0x002D5F3E+220990]&#10;&#9;Ordinal0 [0x002D5CAC+220332]&#10;&#9;Ordinal0 [0x002D189B+202907]&#10;&#9;Ordinal0 [0x002B3DF4+81396]&#10;&#9;Ordinal0 [0x002B4DEE+85486]&#10;&#9;Ordinal0 [0x002B4D79+85369]&#10;&#9;Ordinal0 [0x004C85DC+2262492]&#10;&#9;GetHandleVerifier [0x00752874+1487204]&#10;&#9;GetHandleVerifier [0x007523CD+1486013]&#10;&#9;GetHandleVerifier [0x0075A368+1518680]&#10;&#9;GetHandleVerifier [0x00752F4E+1488958]&#10;&#9;Ordinal0 [0x004BED0D+2223373]&#10;&#9;Ordinal0 [0x004CA12B+2269483]&#10;&#9;Ordinal0 [0x004CA26F+2269807]&#10;&#9;Ordinal0 [0x004DECB8+2354360]&#10;&#9;BaseThreadInitThunk [0x76C3FA29+25]&#10;&#9;RtlGetAppContainerNamedObjectPath [0x77807A9E+286]&#10;&#9;RtlGetAppContainerNamedObjectPath [0x77807A6E+238]&#10;&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)&#13;&#10;&#9;at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)&#13;&#10;&#9;at java.lang.reflect.Constructor.newInstance(Unknown Source)&#13;&#10;&#9;at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)&#13;&#10;&#9;at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)&#13;&#10;&#9;at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)&#13;&#10;&#9;at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)&#13;&#10;&#9;at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)&#13;&#10;&#9;at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)&#13;&#10;&#9;at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)&#13;&#10;&#9;at java.util.stream.AbstractPipeline.copyInto(Unknown Source)&#13;&#10;&#9;at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)&#13;&#10;&#9;at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)&#13;&#10;&#9;at java.util.stream.AbstractPipeline.evaluate(Unknown Source)&#13;&#10;&#9;at java.util.stream.ReferencePipeline.findFirst(Unknown Source)&#13;&#10;&#9;at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)&#13;&#10;&#9;at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)&#13;&#10;&#9;at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)&#13;&#10;&#9;at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)&#13;&#10;&#9;at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)&#13;&#10;&#9;at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)&#13;&#10;&#9;at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)&#13;&#10;&#9;at StepDefination.sample.user_is_on_Google_HomePage(sample.java:19)&#13;&#10;&#9;at ✽.User is on Google HomePage(file:src/test/java/features/sample.feature:4)&#13;&#10;"><![CDATA[Given User is on Google HomePage............................................failed
+Then Enter enter the "IBM"..................................................skipped
+
+StackTrace:
+org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 87
+Current browser version is 94.0.4606.61 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-CJ23D15G', ip: '172.29.224.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x005CC0C3+3326147]
+	Ordinal0 [0x004B0851+2164817]
+	Ordinal0 [0x00337298+619160]
+	Ordinal0 [0x002B1D92+73106]
+	Ordinal0 [0x002AE119+57625]
+	Ordinal0 [0x002AC38A+50058]
+	Ordinal0 [0x002D5F3E+220990]
+	Ordinal0 [0x002D5CAC+220332]
+	Ordinal0 [0x002D189B+202907]
+	Ordinal0 [0x002B3DF4+81396]
+	Ordinal0 [0x002B4DEE+85486]
+	Ordinal0 [0x002B4D79+85369]
+	Ordinal0 [0x004C85DC+2262492]
+	GetHandleVerifier [0x00752874+1487204]
+	GetHandleVerifier [0x007523CD+1486013]
+	GetHandleVerifier [0x0075A368+1518680]
+	GetHandleVerifier [0x00752F4E+1488958]
+	Ordinal0 [0x004BED0D+2223373]
+	Ordinal0 [0x004CA12B+2269483]
+	Ordinal0 [0x004CA26F+2269807]
+	Ordinal0 [0x004DECB8+2354360]
+	BaseThreadInitThunk [0x76C3FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77807A9E+286]
+	RtlGetAppContainerNamedObjectPath [0x77807A6E+238]
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+	at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+	at StepDefination.sample.user_is_on_Google_HomePage(sample.java:19)
+	at ✽.User is on Google HomePage(file:src/test/java/features/sample.feature:4)
+]]></failure>
+</testcase>
+</testsuite>

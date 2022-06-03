@@ -1,0 +1,97 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-09-30T09:56:12.193Z",
+        "line": 9,
+        "name": "Enter Text in Google Seacrh Bar",
+        "description": "",
+        "id": "enter-text;enter-text-in-google-seacrh-bar;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 87\nCurrent browser version is 94.0.4606.61 with binary path C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-CJ23D15G\u0027, ip: \u0027172.29.224.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_281\u0027\nDriver info: driver.version: ChromeDriver\nremote stacktrace: Backtrace:\n\tOrdinal0 [0x005CC0C3+3326147]\n\tOrdinal0 [0x004B0851+2164817]\n\tOrdinal0 [0x00337298+619160]\n\tOrdinal0 [0x002B1D92+73106]\n\tOrdinal0 [0x002AE119+57625]\n\tOrdinal0 [0x002AC38A+50058]\n\tOrdinal0 [0x002D5F3E+220990]\n\tOrdinal0 [0x002D5CAC+220332]\n\tOrdinal0 [0x002D189B+202907]\n\tOrdinal0 [0x002B3DF4+81396]\n\tOrdinal0 [0x002B4DEE+85486]\n\tOrdinal0 [0x002B4D79+85369]\n\tOrdinal0 [0x004C85DC+2262492]\n\tGetHandleVerifier [0x00752874+1487204]\n\tGetHandleVerifier [0x007523CD+1486013]\n\tGetHandleVerifier [0x0075A368+1518680]\n\tGetHandleVerifier [0x00752F4E+1488958]\n\tOrdinal0 [0x004BED0D+2223373]\n\tOrdinal0 [0x004CA12B+2269483]\n\tOrdinal0 [0x004CA26F+2269807]\n\tOrdinal0 [0x004DECB8+2354360]\n\tBaseThreadInitThunk [0x76C3FA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x77807A9E+286]\n\tRtlGetAppContainerNamedObjectPath [0x77807A6E+238]\n\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)\r\n\tat org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)\r\n\tat java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)\r\n\tat java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)\r\n\tat java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)\r\n\tat java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)\r\n\tat java.util.stream.AbstractPipeline.copyInto(Unknown Source)\r\n\tat java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)\r\n\tat java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)\r\n\tat java.util.stream.AbstractPipeline.evaluate(Unknown Source)\r\n\tat java.util.stream.ReferencePipeline.findFirst(Unknown Source)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.\u003cinit\u003e(RemoteWebDriver.java:131)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:181)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:168)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:123)\r\n\tat StepDefination.sample.user_is_on_Google_HomePage(sample.java:19)\r\n\tat ✽.User is on Google HomePage(file:src/test/java/features/sample.feature:4)\r\n",
+              "duration": 5636319700,
+              "status": "failed"
+            },
+            "line": 4,
+            "name": "User is on Google HomePage",
+            "match": {
+              "location": "sample.user_is_on_Google_HomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 12100,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "Enter enter the \"Manipal\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Manipal",
+                  "offset": 17
+                }
+              ],
+              "location": "sample.enter_enter_the(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-30T09:56:17.838Z",
+        "line": 10,
+        "name": "Enter Text in Google Seacrh Bar",
+        "description": "",
+        "id": "enter-text;enter-text-in-google-seacrh-bar;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 87\nCurrent browser version is 94.0.4606.61 with binary path C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-CJ23D15G\u0027, ip: \u0027172.29.224.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_281\u0027\nDriver info: driver.version: ChromeDriver\nremote stacktrace: Backtrace:\n\tOrdinal0 [0x005CC0C3+3326147]\n\tOrdinal0 [0x004B0851+2164817]\n\tOrdinal0 [0x00337298+619160]\n\tOrdinal0 [0x002B1D92+73106]\n\tOrdinal0 [0x002AE119+57625]\n\tOrdinal0 [0x002AC38A+50058]\n\tOrdinal0 [0x002D5F3E+220990]\n\tOrdinal0 [0x002D5CAC+220332]\n\tOrdinal0 [0x002D189B+202907]\n\tOrdinal0 [0x002B3DF4+81396]\n\tOrdinal0 [0x002B4DEE+85486]\n\tOrdinal0 [0x002B4D79+85369]\n\tOrdinal0 [0x004C85DC+2262492]\n\tGetHandleVerifier [0x00752874+1487204]\n\tGetHandleVerifier [0x007523CD+1486013]\n\tGetHandleVerifier [0x0075A368+1518680]\n\tGetHandleVerifier [0x00752F4E+1488958]\n\tOrdinal0 [0x004BED0D+2223373]\n\tOrdinal0 [0x004CA12B+2269483]\n\tOrdinal0 [0x004CA26F+2269807]\n\tOrdinal0 [0x004DECB8+2354360]\n\tBaseThreadInitThunk [0x76C3FA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x77807A9E+286]\n\tRtlGetAppContainerNamedObjectPath [0x77807A6E+238]\n\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)\r\n\tat org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)\r\n\tat java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)\r\n\tat java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)\r\n\tat java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)\r\n\tat java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)\r\n\tat java.util.stream.AbstractPipeline.copyInto(Unknown Source)\r\n\tat java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)\r\n\tat java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)\r\n\tat java.util.stream.AbstractPipeline.evaluate(Unknown Source)\r\n\tat java.util.stream.ReferencePipeline.findFirst(Unknown Source)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.\u003cinit\u003e(RemoteWebDriver.java:131)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:181)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:168)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:123)\r\n\tat StepDefination.sample.user_is_on_Google_HomePage(sample.java:19)\r\n\tat ✽.User is on Google HomePage(file:src/test/java/features/sample.feature:4)\r\n",
+              "duration": 1401762700,
+              "status": "failed"
+            },
+            "line": 4,
+            "name": "User is on Google HomePage",
+            "match": {
+              "location": "sample.user_is_on_Google_HomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9600,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "Enter enter the \"IBM\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "IBM",
+                  "offset": 17
+                }
+              ],
+              "location": "sample.enter_enter_the(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Enter Text",
+    "description": "",
+    "id": "enter-text",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/sample.feature",
+    "tags": []
+  }
+]
